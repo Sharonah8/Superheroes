@@ -1,0 +1,2 @@
+class Powername < ApplicationRecord
+end

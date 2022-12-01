@@ -1,0 +1,2 @@
+class PowernamesController < ApplicationController
+end
