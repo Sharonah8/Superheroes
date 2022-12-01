@@ -23,12 +23,12 @@ HeroPower.create([
     {"strength": "Strong",
   "power_id": 1,
   "hero_id": 3
-}
+},
 {
   "strength": "Average",
   "power_id": 2,
   "hero_id": 2
-}
+},
 {
   "strength": "Weak",
   "power_id": 3,

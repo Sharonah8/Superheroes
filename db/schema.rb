@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_01_161817) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_01_162655) do
   create_table "hero_powers", force: :cascade do |t|
     t.string "strength"
     t.integer "power_id"
@@ -26,7 +26,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_161817) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "powernames", force: :cascade do |t|
+  create_table "powers", force: :cascade do |t|
+    t.string "name"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

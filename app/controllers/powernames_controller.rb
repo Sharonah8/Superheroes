@@ -1,2 +1,0 @@
-class PowernamesController < ApplicationController
-end
