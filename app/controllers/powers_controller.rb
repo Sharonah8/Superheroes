@@ -4,6 +4,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :render_invalid_response
 
     def index
         powers = Power.all
+        #, serializer: :PowerSerializer
         render json: powers 
     end
 
