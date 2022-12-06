@@ -1,9 +1,10 @@
 class HeroPowersController < ApplicationController
 rescue_from ActiveRecord::RecordNotFound, with: :render_hero_power_not_created_response
+wrap_parameters format: []
     
     def create
         hero_power = HeroPower.create(hero_power_params)
-        render json: hero_power
+        render json: hero_power.hero
     end
 
     private
